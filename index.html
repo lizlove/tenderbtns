@@ -1,347 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Elizabeth Lovero">
-    <link rel="icon" type="image/png" href="img/lm-favicon.png">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tender Buttons | Digital Preservation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
 
-    <title>Elizabeth Lovero | Tender Buttons</title>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="./style.css" rel="stylesheet">
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+							<h1>Tender Buttons</h1>
+							<p>Digital Preservation Consulting</p>
+						</header>
 
-  </head>
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="field">
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</div>
+							<div class="field">
+								<input type="email" name="email" id="email" placeholder="Email" />
+							</div>
+							<div class="field">
+								<div class="select-wrapper">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+							</div>
+							<div class="field">
+								<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+							</div>
+							<div class="field">
+								<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+							</div>
+							<div class="field">
+								<label>But are you a robot?</label>
+								<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+								<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+							</div>
+							<ul class="actions">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
 
-  <body>
+						<footer>
+							<ul class="icons">
+								<li><a href="#" class="fa-twitter">Twitter</a></li>
+								<li><a href="#" class="fa-instagram">Instagram</a></li>
+								<li><a href="#" class="fa-facebook">Facebook</a></li>
+							</ul>
+						</footer>
+					</section>
 
-    <header role="banner">
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Tender Buttons</li>
+							<li>2017</li>
+						</ul>
+					</footer>
 
-      <a href="#"><img id="logo-main" src="img/elizabethlovero.svg" class="img-responsive" alt="Elizabeth Lovero" /></a>
+			</div>
 
-      <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-5">
-              <hr>
-            </div>
-            <div class="col-xs-2 text-center">
-              <a data-toggle="collapse" href="#collapseNav" aria-expanded="false" aria-controls="collapseNav"><img src="img/nav-bars.png" alt="" class="nav-icon" /></a>
-            </div>
-            <div class="col-xs-5">
-              <hr>
-            </div>
-          </div>
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-          <div class="collapse" id="collapseNav">
-            <div class="btn-group btn-group-justified" role="group" aria-label="">
-              <a href="/" class="btn"><img src="img/icon-cart.png" width="10" alt="Cart" /></a>
-              <a href="books" class="btn">Work</a>
-              <a href="posters" class="btn">Blog</a>
-              <a href="about" class="btn">About</a>
-              <a href="contact" class="btn">Contact</a>
-            </div>
-
-            <div class="row">
-              <div class="col-xs-12">
-                <hr>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <div class="container">
-      <div id="carousel-start" class="carousel slide carousel-fade" data-ride="carousel">
-
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-start" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-start" data-slide-to="1"></li>
-          <li data-target="#carousel-start" data-slide-to="2"></li>
-          <li data-target="#carousel-start" data-slide-to="3"></li>
-          <li data-target="#carousel-start" data-slide-to="4"></li>
-          <li data-target="#carousel-start" data-slide-to="5"></li>
-          <li data-target="#carousel-start" data-slide-to="6"></li>
-        </ol>
-
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <a href="posters/gunnar-smoliansky-untitled">
-              <img src="img/start/carousel/Gunnar-Smoliansky-Untitled.jpg" alt="Gunnar Smoliansky — Untitled, 1990">
-            </a>
-          </div>
-          <div class="item">
-            <a href="gunnar-smoliansky-trad">
-              <img src="img/start/carousel/Gunnar-Smoliansky-Trad.jpg" alt="Gunnar Smoliansky — Träd">
-            </a>
-          </div>
-          <div class="item">
-            <a href="posters/ron-jude-nashville">
-              <img src="img/start/carousel/Ron-Jude-Nashville.jpg" alt="Ron Jude — Nashville, TN, 1996">
-            </a>
-          </div>
-          <div class="item">
-            <a href="ola-rindal-dag-madoka-miya">
-              <img src="img/start/carousel/Ola-Rindal-Dag-Madoka-Miya.jpg" alt="Ola Rindal — Dag Madoka Miya">
-            </a>
-          </div>
-          <div class="item">
-            <a href="posters/takashi-homma-a-song-for-windows">
-              <img src="img/start/carousel/Takashi-Homma-A-song-for-windows.jpg" alt="Takashi Homma — A song for windows, 2015">
-            </a>
-          </div>
-          <div class="item">
-            <a href="ron-jude-vitreous-china">
-              <img src="img/start/carousel/Ron-Jude-Vitreous-China.jpg" alt="Ron Jude — Vitreous China">
-            </a>
-          </div>
-          <div class="item">
-            <a href="posters/gerry-johansson-antarctica-266">
-              <img src="img/start/carousel/Gerry-Johansson-Antarctica-266.jpg" alt="Gerry Johansson — Antarctica #266, Dronning Maud Land, 2001">
-            </a>
-          </div>
-
-          <a class="left carousel-control" href="#carousel-start" role="button" data-slide="prev">
-            <img src="img/nav-left.png" wifth="64" height="64" alt="" class="icon-prev" />
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#carousel-start" role="button" data-slide="next">
-            <img src="img/nav-right.png" wifth="64" height="64" alt="" class="icon-next" />
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-6 book-start">
-          <a href="gunnar-smoliansky-trad">
-            <img src="img/start/Gunnar-Smoliansky-Trad.jpg" alt="Gunnar Smoliansky — Träd" class="img-responsive" />
-            <h5>Gunnar Smoliansky — Träd</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="ola-rindal-dag-madoka-miya">
-            <img src="img/start/Ola-Rindal-Dag-Madoka-Miya.jpg" alt="Ola Rindal — Dag Madoka Miya" class="img-responsive" />
-            <h5>Ola Rindal — Dag Madoka Miya</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="ron-jude-vitreous-china">
-            <img src="img/start/Ron-Jude-Vitreous-China.jpg" alt="Ron Jude — Vitreous China" class="img-responsive" />
-            <h5>Ron Jude — Vitreous China</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="takashi-homma-a-song-for-windows">
-            <img src="img/start/Takashi-Homma-A-song-for-windows.jpg" alt="Takashi Homma — A song for windows" class="img-responsive" />
-            <h5>Takashi Homma — A song for windows</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="landon-metz-club-to-club">
-            <img src="img/start/Landon-Metz-Club-to-Club.jpg" alt="Landon Metz — Club to Club" class="img-responsive" />
-            <h5>Landon Metz — Club to Club</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="osamu-yokonami-sasayama">
-            <img src="img/start/Osamu-Yokonami-Sasayama.jpg" alt="Osamu Yokonami — Sasayama" class="img-responsive" />
-            <h5>Osamu Yokonami — Sasayama</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="gerry-johansson-tree-stone-water">
-            <img src="img/start/Gerry-Johansson-Tree-Stone-Water.jpg" alt="Gerry Johansson — Tree Stone Water" class="img-responsive" />
-            <h5>Gerry Johansson — Tree Stone Water</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="landon-metz-west-street-studio">
-            <img src="img/start/Landon-Metz-West-Street-Studio.jpg" alt="Landon Metz — West Street Studio" class="img-responsive" />
-            <h5>Landon Metz — West Street Studio</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="gerry-johansson-antarktis">
-            <img src="img/start/Gerry-Johansson-Antarktis.jpg" alt="Gerry Johansson — Antarktis" class="img-responsive" />
-            <h5>Gerry Johansson — Antarktis</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="dogme-2">
-            <img src="img/start/Dogme-2.jpg" alt="Dogme N°—2" class="img-responsive" />
-            <h5>Dogme N°—2</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="dogme-1">
-            <img src="img/start/Dogme-1.jpg" alt="Dogme N°—1" class="img-responsive" />
-            <h5>Dogme N°—1</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="sayo-nagase-pink-lemonade">
-            <img src="img/start/Sayo-Nagase-Pink-Lemonade.jpg" alt="Sayo Nagase — Pink Lemonade" class="img-responsive" />
-            <h5>Sayo Nagase — Pink Lemonade</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="viviane-sassen-sol-luna">
-            <img src="img/start/Viviane-Sassen-Sol-Luna.jpg" alt="Viviane Sassen — Sol and Luna" class="img-responsive" />
-            <h5>Viviane Sassen — Sol &amp; Luna</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="ron-jude-executive-model">
-            <img src="img/start/Ron-Jude-Executive-Model.jpg" alt="Ron Jude — Executive Model" class="img-responsive" />
-            <h5>Ron Jude — Executive Model</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="viviane-sassen-die-son-sien-alles">
-            <img src="img/start/Viviane-Sassen-Die-Son-Sien-Alles.jpg" alt="Viviane Sassen — Die Son Sien Alles" class="img-responsive" />
-            <h5>Viviane Sassen — Die Son Sien Alles</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="sayo-nagase-asphalt-chalk">
-            <img src="img/start/Sayo-Nagase-Asphalt-Chalk.jpg" alt="Sayo Nagase — Asphalt &amp; Chalk" class="img-responsive" />
-            <h5>Sayo Nagase — Asphalt &amp; Chalk</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="hal-hartley-the-heart-is-a-muscle">
-            <img src="img/start/Hal-Hartley-The-Heart-is-a-Muscle.jpg" alt="Hal Hartley — The Heart is a Muscle" class="img-responsive" />
-            <h5>Hal Hartley — The Heart is a Muscle</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="gerry-johansson-dalen">
-            <img src="img/start/Gerry-Johansson-Dalen.jpg" alt="Gerry Johansson — Dalen" class="img-responsive" />
-            <h5>Gerry Johansson — Dalen</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="mikael-olsson-a-day-in-the-life-of">
-            <img src="img/start/Mikael-Olsson-A-Day-in-the-Life-of.jpg" alt="Mikael Olsson — A Day in the Life of..." class="img-responsive" />
-            <h5>Mikael Olsson — A Day in the Life of...</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="viviane-sassen-a-day-in-the-life-of">
-            <img src="img/start/Viviane-Sassen-A-Day-in-the-Life-of.jpg" alt="Viviane Sassen — A Day in the Life of..." class="img-responsive" />
-            <h5>Viviane Sassen — A Day in the Life of...</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="jenny-kallman-a-day-in-the-life-of">
-            <img src="img/start/Jenny-Kallman-A-Day-in-the-Life-of.jpg" alt="Jenny Källman — A Day in the Life of..." class="img-responsive" />
-            <h5>Jenny Källman — A Day in the Life of...</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="ola-rindal-a-day-in-the-life-of">
-            <img src="img/start/Ola-Rindal-A-Day-in-the-Life-of.jpg" alt="Ola Rindal — A Day in the Life of..." class="img-responsive" />
-            <h5>Ola Rindal — A Day in the Life of...</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="blommers-schumm-a-day-in-the-life-of">
-            <img src="img/start/Blommers-Schumm-A-Day-in-the-Life-of.jpg" alt="Blommers/Schumm — A Day in the Life of..." class="img-responsive" />
-            <h5>Blommers/Schumm — A Day in the Life of...</h5>
-          </a>
-        </div>
-
-        <div class="col-md-6 book-start">
-          <a href="torbjorn-rodland-a-day-in-the-life-of">
-            <img src="img/start/Torbjorn-Rodland-A-Day-in-the-Life-of.jpg" alt="Torbjørn Rødland — A Day in the Life of..." class="img-responsive" />
-            <h5>Torbjørn Rødland — A Day in the Life of...</h5>
-          </a>
-        </div>
-
-      </div>
-
-      <div id="footer">
-        <div class="row">
-          <div class="col-xs-5">
-            <hr>
-          </div>
-          <div class="col-xs-2 text-center">
-            <a href="#top"><img id="logo-footer" src="img/libraryman-lm.png" alt="Libraryman" /></a>
-          </div>
-          <div class="col-xs-5">
-            <hr>
-          </div>
-        </div>
-
-        <div class="col-md-3 text-center">
-          <p>
-            <a href="mailto:elizabethlovero@gmail.com">Email</a><br />
-          </p>
-        </div>
-        <div class="col-md-3 text-center">
-          <p>
-            <a href="mailto:elizabethlovero@gmail.com">Github</a><br />
-          </p>
-        </div>
-        <div class="col-md-3 text-center">
-          <p>
-            <a href="http://instagram.com/cederteg">LinkedIn</a><br />
-          </p>
-        </div>
-        <div class="col-md-3 text-center">
-          <p>
-            <a href="http://instagram.com/cederteg">Blog</a><br />
-          </p>
-        </div>
-      </div>
-
-    </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- <script src="js/jquery.splashscreen.js"></script>
-    <script src="js/script.js"></script> -->
-
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-62323749-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-  </body>
+	</body>
 </html>
