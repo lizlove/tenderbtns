@@ -1,3 +1,5 @@
 # Tender Buttons
 
-Web production by Elizabeth Lovero
+Landing page for digital preservation consultancy
+
+Design inspiration from [Html5 UP](https://html5up.net/)
