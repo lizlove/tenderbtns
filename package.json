@@ -1,0 +1,27 @@
+{
+  "name": "tenderbuttons",
+  "version": "0.1.0",
+  "description": "Landing page for digital preservation project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nf start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizlove/tenderbtns.git"
+  },
+  "author": "Elizabeth Lovero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lizlove/tenderbtns/issues"
+  },
+  "homepage": "https://tender-buttons.com",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "foreman": "^2.0.0",
+    "request": "^2.79.0",
+    "serve-favicon":"^2.3.2"
+  }
+}
