@@ -25,5 +25,5 @@ app.get('/', (req, res)=>{
 
 // Wake up Heroku
 setInterval(function() {
-    http.get("http://sorting-hat-bot.herokuapp.com/sort");
+    http.get("http://tender-buttons.herokuapp.com/");
 }, 300000);
